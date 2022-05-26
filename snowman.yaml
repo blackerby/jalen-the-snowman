@@ -1,0 +1,4 @@
+sparql_client:
+  endpoint: "https://wikibase.slis.ua.edu/bigdata/namespace/wdq/sparql"
+  http_headers:
+    User-Agent: "project-boilerplate Snowman (https://github.com/glaciers-in-archives/snowman)"

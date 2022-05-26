@@ -1,0 +1,17 @@
+# Touchdown passes involving Jalen Hurts for plays over 25 yards
+PREFIX schema: <http://schema.org/>
+SELECT ?GameLabel ?Textual_Description_of_Play_Outcome ?LinkToPlay ?Yardage_Resulting_from_Play_Outcome ?LinkToDataPageForPlay
+WHERE {
+  ?LinkToDataPageForPlay wdt:P17 wd:Q8;  #Is a play
+        wdt:P21* wd:Q281; # 2017 Alabama football season
+        wdt:P16 wd:Q35;  #Touchdown pass play
+        wdt:P64 wd:Q1355;                 
+        wdt:P38 ?plays__statYardage. # Yardage gain
+  ?LinkToPlay schema:about ?LinkToDataPageForPlay.
+          FILTER(?plays__statYardage >= 25).  #Yardage gained >= 25
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  OPTIONAL { ?LinkToDataPageForPlay wdt:P20 ?Textual_Description_of_Play_Outcome. }
+  OPTIONAL { ?LinkToDataPageForPlay wdt:P38 ?Yardage_Resulting_from_Play_Outcome. }
+  OPTIONAL { ?LinkToDataPageForPlay wdt:P39 ?Game. }
+}
+LIMIT 100

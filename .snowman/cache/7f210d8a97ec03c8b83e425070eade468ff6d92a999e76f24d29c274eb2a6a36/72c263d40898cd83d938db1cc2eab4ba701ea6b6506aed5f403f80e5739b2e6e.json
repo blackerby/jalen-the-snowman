@@ -1,0 +1,138 @@
+{
+  "head" : {
+    "vars" : [ "s", "p", "o" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/statement/Q1059-5749D947-5D58-494B-9341-34EFA2A48AAB"
+      },
+      "p" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/prop/statement/P17"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/Q8"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/statement/Q106-c0d9acd5-41bd-20bf-31c4-99552657aff1"
+      },
+      "p" : {
+        "type" : "uri",
+        "value" : "http://wikiba.se/ontology#rank"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://wikiba.se/ontology#NormalRank"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/statement/Q106-c0d9acd5-41bd-20bf-31c4-99552657aff1"
+      },
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://wikiba.se/ontology#BestRank"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/statement/Q106-c0d9acd5-41bd-20bf-31c4-99552657aff1"
+      },
+      "p" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/prop/statement/P17"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/Q43"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/statement/Q1060-466D0112-B55F-41D9-8E3B-CEDE0B2349BA"
+      },
+      "p" : {
+        "type" : "uri",
+        "value" : "http://wikiba.se/ontology#rank"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://wikiba.se/ontology#NormalRank"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/statement/Q1060-466D0112-B55F-41D9-8E3B-CEDE0B2349BA"
+      },
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://wikiba.se/ontology#BestRank"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/statement/Q1060-466D0112-B55F-41D9-8E3B-CEDE0B2349BA"
+      },
+      "p" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/prop/statement/P17"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/Q8"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/statement/Q1061-9600DDCA-5288-4F55-AA1B-A92935C3CF75"
+      },
+      "p" : {
+        "type" : "uri",
+        "value" : "http://wikiba.se/ontology#rank"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://wikiba.se/ontology#NormalRank"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/statement/Q1061-9600DDCA-5288-4F55-AA1B-A92935C3CF75"
+      },
+      "p" : {
+        "type" : "uri",
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://wikiba.se/ontology#BestRank"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/statement/Q1061-9600DDCA-5288-4F55-AA1B-A92935C3CF75"
+      },
+      "p" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/prop/statement/P17"
+      },
+      "o" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/Q8"
+      }
+    } ]
+  }
+}

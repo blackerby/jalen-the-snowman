@@ -1,0 +1,123 @@
+{
+  "head" : {
+    "vars" : [ "GameLabel", "Textual_Description_of_Play_Outcome", "LinkToPlay", "Yardage_Resulting_from_Play_Outcome", "LinkToDataPageForPlay" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "LinkToDataPageForPlay" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/Q5117"
+      },
+      "LinkToPlay" : {
+        "type" : "uri",
+        "value" : "https://wikibase.slis.ua.edu/wiki/Jalen_Hurts_pass_complete_to_Calvin_Ridley_for_78_yds_for_a_TD_(Andy_Pappanastos_KICK)_(9/16/17)"
+      },
+      "Textual_Description_of_Play_Outcome" : {
+        "type" : "literal",
+        "value" : "Jalen Hurts pass complete to Calvin Ridley for 78 yds for a TD (Andy Pappanastos KICK) (9/16/17)"
+      },
+      "Yardage_Resulting_from_Play_Outcome" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "78"
+      },
+      "GameLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "2017 Alabama versus Colorado State Football Game"
+      }
+    }, {
+      "LinkToDataPageForPlay" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/Q5180"
+      },
+      "LinkToPlay" : {
+        "type" : "uri",
+        "value" : "https://wikibase.slis.ua.edu/wiki/Jalen_Hurts_pass_complete_to_Robert_Foster_for_52_yds_for_a_TD_(Andy_Pappanastos_KICK)_(9/16/17)"
+      },
+      "Textual_Description_of_Play_Outcome" : {
+        "type" : "literal",
+        "value" : "Jalen Hurts pass complete to Robert Foster for 52 yds for a TD (Andy Pappanastos KICK) (9/16/17)"
+      },
+      "Yardage_Resulting_from_Play_Outcome" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "52"
+      },
+      "GameLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "2017 Alabama versus Colorado State Football Game"
+      }
+    }, {
+      "LinkToDataPageForPlay" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/Q3673"
+      },
+      "LinkToPlay" : {
+        "type" : "uri",
+        "value" : "https://wikibase.slis.ua.edu/wiki/Jalen_Hurts_pass_complete_to_DeVonta_Smith_for_26_yds_for_a_TD_(Andy_Pappanastos_KICK)_(11/11/17)"
+      },
+      "Textual_Description_of_Play_Outcome" : {
+        "type" : "literal",
+        "value" : "Jalen Hurts pass complete to DeVonta Smith for 26 yds for a TD (Andy Pappanastos KICK) (11/11/17)"
+      },
+      "Yardage_Resulting_from_Play_Outcome" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "26"
+      },
+      "GameLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "2017 Alabama versus Mississippi State Football Game"
+      }
+    }, {
+      "LinkToDataPageForPlay" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/Q3741"
+      },
+      "LinkToPlay" : {
+        "type" : "uri",
+        "value" : "https://wikibase.slis.ua.edu/wiki/Calvin_Ridley_66_Yd_pass_from_Jalen_Hurts_(JK_Scott_Kick)_(11/18/17)"
+      },
+      "Textual_Description_of_Play_Outcome" : {
+        "type" : "literal",
+        "value" : "Calvin Ridley 66 Yd pass from Jalen Hurts (JK Scott Kick) (11/18/17)"
+      },
+      "Yardage_Resulting_from_Play_Outcome" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "66"
+      },
+      "GameLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "2017 Alabama versus Mercer Football Game"
+      }
+    }, {
+      "LinkToDataPageForPlay" : {
+        "type" : "uri",
+        "value" : "http://wikibase.slis.ua.edu/entity/Q3937"
+      },
+      "LinkToPlay" : {
+        "type" : "uri",
+        "value" : "https://wikibase.slis.ua.edu/wiki/Jalen_Hurts_pass_complete_to_Jerry_Jeudy_for_36_yds_for_a_TD_(Andy_Pappanastos_KICK)_(11/25/17)"
+      },
+      "Textual_Description_of_Play_Outcome" : {
+        "type" : "literal",
+        "value" : "Jalen Hurts pass complete to Jerry Jeudy for 36 yds for a TD (Andy Pappanastos KICK) (11/25/17)"
+      },
+      "Yardage_Resulting_from_Play_Outcome" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "36"
+      },
+      "GameLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "2017 Alabama versus Auburn Football Game"
+      }
+    } ]
+  }
+}

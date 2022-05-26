@@ -1,0 +1,22 @@
+{{ template "base" . }} {{ define "title" }}Jalen Hurts 2017 TDs over 25 Yards{{
+end }} {{ define "content" }}
+
+<h1>Jalen Hurts 2017 TDs over 25 Yards</h1>
+
+<table>
+  <tr>
+    <th>Game</th>
+    <th>Description</th>
+    <th>Yardage</th>
+  </tr>
+  {{ range . }}
+  <tr>
+    <td>{{ .GameLabel }}</td>
+    <td>
+      <a href="{{ .LinkToPlay }}">{{ .Textual_Description_of_Play_Outcome }}</a>
+    </td>
+    <td>{{ .Yardage_Resulting_from_Play_Outcome }}</td>
+  </tr>
+  {{ end }}
+</table>
+{{ end }}
